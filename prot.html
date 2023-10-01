@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        #header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        #home,
+        #about,
+        #projects,
+        #achievements,
+        #contact {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+
+        #footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            margin-bottom: 15px;
+        }
+
+        .project-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-list li hr {
+            border-color: #ccc;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#achievements">Achievements</a> |
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home">
+        <div class="section-title">HELLO GUYS!...</div>
+        <div align="center">
+            <h2 style="color: #4CAF50;">WELCOME TO APVSS GROUP OF COMPANIES PROTFOLIO</h2>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="section-title">About Me</div>
+        <div align="center">
+            <img src="apv.jpg" alt="Profile Picture" style="width: 200px; border-radius: 50%;">
+            <p>
+                Thanks for your interest, here is a quick story of me...</p>
+               <p> As a dedicated and ambitious Computer Science and Engineering student, my goal is to leverage my academic knowledge and practical skills to contribute to innovative technology solutions that address real-world challenges. I am passionate about continuously expanding my understanding of cutting-edge technologies, honing my problem-solving abilities, and collaborating with diverse teams to create meaningful and impactful projects. With a strong commitment to lifelong learning, I aspire to excel academically, gain hands-on experience through internships and projects, and ultimately pursue a career that allows me to make a positive difference in the field of computer science and engineering.
+--PAIDAKULA SRIKANTH
+            </p>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="section-title">Projects</div>
+        <ul class="project-list">
+            <li>
+                <strong>UPI BASED WATER DISPENSER USING GSM MODULE</strong>
+                <p>
+                    I Designed and developed a smart water dispenser system that leverages UPI (Unified Payments Interface) technology for efficient and contactless water dispensing...
+                </p>
+            </li>
+            <li>
+                <hr>
+                <strong>LAND REGISTRATION PORTAL</strong>
+                <p>
+                    I developed a registration portal application using C-Language and Python, to create an interactive and secure user interface for land registration...
+                </p>
+            </li>
+            <li>
+                <hr>
+                <strong>TELEGRAM CHAT BOT (Chat-GPT)</strong>
+                <p>I created a chat board on the Telegram platform using botfather and integrated with chat gpt using integrating APIs providing natural language interaction and responses similar to Chatgpt...</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="achievements">
+        <div class="section-title">Achievements</div>
+        <ul class="achievement-list">
+            <li>
+                <strong>AICTE – Cohort 5 Virtual Internship</strong>
+                <ul>
+                    <li>I had the privilege of participating in the AICTE Cohort 5 Virtual Internship program, focusing on the Cyber Security domain...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Hacker Rank certificate Python and Problem solving using Programming</strong>
+                <ul>
+                    <li>I have successfully completed the HackerRank certification in Python and Problem Solving using Programming, an achievement that reflects my proficiency in Python programming and problem-solving skills...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Cetification on AIML Research</strong>
+                <ul>
+                    <li>I have achieved certification in the AIML (Artificial Intelligence and Machine Learning) Research Program, conducted by SR University...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Ethical Hacking Certification by Great Learning</strong>
+                <ul>
+                    <li>I have successfully completed the Ethical Hacking Course Certification through Great Learning, a renowned platform for professional development and education...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>NCC CERTIFICATE</strong>
+                <ul>
+                    <li>I proudly hold the NCC A Certificate, which I earned during my tenure at St. Gabriel's High School. This certification represents my commitment to personal and leadership development through participation in the National Cadet Corps...</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <div class="section-title">Contact</div>
+        <div class="contact-form" align="center">
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="tel" placeholder="Number"><br>
+            <textarea placeholder="Message" rows="5" cols="40"></textarea><br>
+            <button type="Submit">Submit</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a href="https://www.linkedin.com/in/paidakula-srikanth-90080925b/" style="color: white;">LinkedIn</a> |
+        <a href="https://twitter.com/SArmy210" style="color: white;">Twitter</a> |
+        <a href="https://www.instagram.com/srikanth_army210/?next=%2F" style="color: white;">Instagram</a>
+        <p>&copy; 2023 Paidakula Srikanth. All rights reserved</p>
+    </div>
+</body>
+
+</html>
